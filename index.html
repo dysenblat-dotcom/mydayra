@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Dayra</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌸 My Dayra</h1>
+    <div id="streak">🔥 0-day streak</div>
+    <nav>
+      <button onclick="showTab('journey')">Journey</button>
+      <button onclick="showTab('streak')">Streak</button>
+      <button onclick="showTab('books')">Books</button>
+      <button onclick="showTab('corrections')">Corrections</button>
+      <button onclick="showTab('profile')">Profile</button>
+    </nav>
+  </header>
+  <main>
+    <section id="journey" class="tab"></section>
+    <section id="streak" class="tab" style="display:none"></section>
+    <section id="books" class="tab" style="display:none"></section>
+    <section id="corrections" class="tab" style="display:none"></section>
+    <section id="profile" class="tab" style="display:none"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

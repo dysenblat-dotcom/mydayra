@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;background:#fff8f6;color:#333;margin:0;padding:0;text-align:center;}
+header{background:#fec89a;padding:10px;}
+nav button{margin:5px;padding:10px;border:none;border-radius:8px;background:#9b5de5;color:white;cursor:pointer;}
+.tab{padding:20px;}
+.lesson{margin:10px;padding:15px;border-radius:10px;background:#ff6f61;color:white;}
+.locked{background:#ccc;}
+.book{margin:10px;padding:10px;border:1px solid #ddd;border-radius:10px;}
